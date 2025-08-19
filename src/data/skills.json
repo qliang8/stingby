@@ -1,22 +1,22 @@
 [
     {
         "game": "Super Mario 3D World",
-        "imageSrc": "../../public/assets/skills/super-mario-3d-world.png"
+        "imageSrc": "./assets/skills/super-mario-3d-world.png"
     },
     {
         "game": "Super Mario 3D World (stamp)",
-        "imageSrc": "../../public/assets/skills/super-mario-3d-world-stamp.png"
+        "imageSrc": "./assets/skills/super-mario-3d-world-stamp.png"
     },
     {
         "game": "Minecraft",
-        "imageSrc": "../../public/assets/skills/minecraft.png"
+        "imageSrc": "./assets/skills/minecraft.png"
     },
     {
         "game": "Super Mario Maker 2",
-        "imageSrc": "../../public/assets/skills/super-mario-maker-2.png"
+        "imageSrc": "./assets/skills/super-mario-maker-2.png"
     },
     {
         "game": "Super Mario 3D World + Bowser's Fury (stamp)",
-        "imageSrc": "../../public/assets/skills/super-mario-3d-world-bowsers-fury-stamp.png"
+        "imageSrc": "./assets/skills/super-mario-3d-world-bowsers-fury-stamp.png"
     }
 ]
