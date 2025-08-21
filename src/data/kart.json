@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Bumble V",
+    "imageSrc": "MKWorld_Kart_Bumble_V.png",
+    "description": "A sleek and stylish kart with a modern design, perfect for racing enthusiasts.",
+    "keys": ["Speed", "Acceleration", "Weight", "Handling"],
+    "demo": "https://www.mariowiki.com/Mario_Kart_World",
+    "source": "https://www.mariowiki.com/Mario_Kart_World"
+  },
+  {
+    "name": "Cloud 9",
+    "imageSrc": "MKWorld_Kart_Cloud_9.png",
+    "description": "A high-performance kart designed for speed and agility, ideal for competitive racers.",
+    "keys": ["Speed", "Acceleration", "Weight", "Handling"],
+    "demo": "https://www.mariowiki.com/Mario_Kart_World",
+    "source": "https://www.mariowiki.com/Mario_Kart_World"
+  },
+  {
+    "name": "Chargin Truck",
+    "imageSrc": "MKWorld_Kart_Chargin_Truck.png",
+    "description": "A robust and powerful truck that combines strength with speed, suitable for all terrains.",
+    "keys": ["Speed", "Acceleration", "Weight", "Handling"],
+    "demo": "https://www.mariowiki.com/Mario_Kart_World",
+    "source": "https://www.mariowiki.com/Mario_Kart_World"
+  }
+]
