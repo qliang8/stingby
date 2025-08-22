@@ -1,14 +1,14 @@
-:root{
-    /* color */
-    --color-text: #6a6a6a;
-    --color-primary: #f5e859e7;
-    --color-secondary: #19376d;
-    --color-dark: #0b2447;
-    --color-black: #000;
-    --color-bg: #eae3a6;
-    --color-bg-dark: #ead379b7;
+:root {
+  /* color */
+  --color-text: #6a6a6a;
+  --color-primary: #d9ab67fa;
+  --color-secondary: #19376d;
+  --color-dark: #0b2447;
+  --color-black: #000;
+  --color-bg: #eae3a6;
+  --color-bg-dark: #ead379b7;
 
-    /* font */
-    --font-roboto: 'Roboto', sans-serif;
-    --font-outfit: 'Outfit', sans-serif;
+  /* font */
+  --font-roboto: "Roboto", sans-serif;
+  --font-outfit: "Outfit", sans-serif;
 }

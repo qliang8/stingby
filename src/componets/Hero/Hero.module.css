@@ -1,94 +1,94 @@
 @import "../../vars.css";
 
 .container {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 49px;
-    z-index: 1;
-    margin-left: 10%;
-    margin-right: 10%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 49px;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    color: var(--color-text);
-    z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--color-text);
+  z-index: 1;
 }
 
 .title {
-    font-size: 72px;
-    font-weight: 900;
-    margin-bottom: 33px;
-    font-family: var(--color-roboto);
-    background: linear-gradient(
-        90deg, 
-        rgba(255, 255, 255, 1) 70%, 
-        rgb(255, 255, 255, 0) 120%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 33px;
+  font-family: var(--color-roboto);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 70%,
+    rgb(255, 255, 255, 0) 120%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .description {
-    font-size: 30px;
-    font-family: var(--color-roboto);
-    margin-bottom: 52px;
+  font-size: 30px;
+  font-family: var(--color-roboto);
+  margin-bottom: 52px;
 }
 
 .profileBtn {
-    text-decoration: none;
-    background-color: var(--color-primary);
-    color: var(--color-text);
-    border-radius: 100px;
-    font-size: 30px;
-    font-weight: 600;
-    padding: 17px 26px;
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  background-color: var(--color-bg-dark);
+  color: var(--color-text);
+  border-radius: 100px;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 17px 26px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
 }
 .heroImg {
-    width: 40%;
-    z-index: 1;
-    animation: floating 3s ease-in-out infinite;
+  width: 40%;
+  z-index: 1;
+  animation: floating 3s ease-in-out infinite;
 }
 
 @keyframes floating {
-    0% {
-        transform: translateY(0px);
-    }
-    50% {
-        transform: translateY(-10px);
-    }
-    100% {
-        transform: translateY(0px);
-    }
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 @media screen and (max-width: 830px) {
-    .container {
-        flex-direction: column-reverse;
-    }
+  .container {
+    flex-direction: column-reverse;
+  }
 
-    .heroImg {
-        width: 70%;
-        margin-top: 30px;
-    }
+  .heroImg {
+    width: 70%;
+    margin-top: 30px;
+  }
 
-    .title {
-        font-size: 48px;
-        text-align: center;
-    }
+  .title {
+    font-size: 48px;
+    text-align: center;
+  }
 
-    .description {
-        font-size: 20px;
-        text-align: center;
-        margin-bottom: 30px;
-    }
+  .description {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
 
-    .content {
-        align-items: center;
-    }
-    
+  .content {
+    align-items: center;
+  }
 }

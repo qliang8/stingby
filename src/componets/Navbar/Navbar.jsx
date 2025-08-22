@@ -4,18 +4,27 @@ import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils.js";
 
 export const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
         Home
       </a>
       <div className={styles.menu}>
-        <ul className={styles.menuItems}>
-          {/* <img 
-                  className={styles.menuBtn} 
-                  src={getImageUrl("nav/menu-icon.png")}
-                  alt="Menu Icon" 
-                /> */}
+        <img
+          className={styles.menuBtn}
+          src={
+            menuOpen
+              ? getImageUrl("close-icon.png")
+              : getImageUrl("menu-icon.png")
+          }
+          alt="menu-button"
+          onClick={() => setMenuOpen(!menuOpen)}
+        />
+        <ul
+          className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
+          onClick={() => setMenuOpen(false)}
+        >
           <li>
             <a href="#about">About</a>
           </li>
@@ -26,7 +35,7 @@ export const Navbar = () => {
             <a href="#kart">My Kart</a>
           </li>
           <li>
-            <a href="#naming">Naming</a>
+            <a href="#stingby">Stingby</a>
           </li>
         </ul>
       </div>

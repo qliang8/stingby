@@ -4,6 +4,7 @@ import { Hero } from "./componets/Hero/Hero";
 import { About } from "./componets/About/About";
 import { Profile } from "./componets/Profile/Profile";
 import { Kart } from "./componets/Kart/Kart";
+import { Stingby } from "./componets/Stingby/Stingby";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <About />
         <Profile />
         <Kart />
+        <Stingby />
       </div>
     </>
   );
